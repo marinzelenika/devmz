@@ -1,15 +1,7 @@
 <div class="jumbotron text-center">
-  <div class="container">
-    <div class="row justify-content-md-center">
-    <div class="col-sm-8">Hello, my name is Marin and this is my blog where I will practice my SEO skills</div>
-    <div class="col-sm-4">
-      {{ $image := resources.Get "images/profilepicmz.png" }}
-      {{ $image := $image.Resize "400x" }}
-      {{ with $image }}
-      <img src="{{ .RelPermalink }}" alt="devmz profile pic">
-      {{ end }}
-    </div>
-  </div>
-
-  </div>
+  <h1 class="display-4">DEV-MZ</h1>
+  <span>Dev Diaries: Navigating the Codeverse</span>
+  {{/*  {{ $image := resources.Get "images/panoramic.jpg" }} {{ with $image }}
+  <img src="{{ .RelPermalink }}" alt="alpine header" class="img-fluid" />
+  {{ end }}  */}}
 </div>
