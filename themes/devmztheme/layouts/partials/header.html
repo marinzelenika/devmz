@@ -1,7 +1,15 @@
 <div class="jumbotron text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
   <h1 class="display-4">DEV-MZ</h1>
   <span>Dev Diaries: Navigating the Codeverse</span>
-  {{/*  {{ $image := resources.Get "images/panoramic.jpg" }} {{ with $image }}
-  <img src="{{ .RelPermalink }}" alt="alpine header" class="img-fluid" />
-  {{ end }}  */}}
+  </div>
+  <div class="col-lg-6">
+    {{ $image := resources.Get "images/profilepic2.png" }} {{ with $image }}
+  <img src="{{ .RelPermalink }}" alt="alpine header" class="img-fluid" width="130px" />
+  {{ end }}  
+  </div>
+  </div>
+  </div>
 </div>
