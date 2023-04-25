@@ -1,22 +1,23 @@
-<div class="jumbotron text-center">
-  <div class="container">
+<div class="jumbotron text-center inner-glow-border" style="border: 10px solid #e5383b;">
     <div class="row">
-      <div class="col-lg-6 d-flex align-items-center justify-content-center">
-        <div>
-          <h1 class="display-4" style="color: #cb997e">DEV-MZ</h1>
+      <div class="col-lg-4 d-flex flex-column">
+        <div class="d-flex align-items-start">
+          <h1 class="display-6">DEV</h1><h1 class="display-5" style="color: #e5383b;">MZ</h1>
+        </div>
+        <div class="mt-auto text-left">
+          <h2 class="display-6" style="color: white; text-align: left">SOFTWARE<br>ENGINEER</h2>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
-        {{ $image := resources.Get "images/profile-pic (10).png" }} {{ with $image }}
-        <img src="{{ .RelPermalink }}" alt="alpine header" class="img-fluid mr-3" width="130px" />
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
+        {{ $image := resources.Get "images/orgprofilepic.png" }} {{ with $image }}
+        <img src="{{ .RelPermalink }}" alt="my mz img" class="img-fluid circle-border-glow" width="450px" />
         {{ end }}
-        <div>
-          <p>Hi, I'm Marin, web developer</p>
-          <p><a href="/my-portfolio">Check out my portfolio</a></p>
-        </div>
+      </div>
+      <div class="col-lg-4 d-flex align-items-start justify-content-end">
+        <h2 class="display-6" style="color: #e5383b; text-align: right;">MARIN<br>ZELENIKA</h2>
       </div>
     </div>
-  </div>
 </div>
+
 
 
