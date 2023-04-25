@@ -35,11 +35,11 @@ body {
   right: -10px;
   bottom: -10px;
   border: 10px solid rgba(255, 255, 255, 0.5);
-  box-shadow: inset 0 0 12px #e5383b;
+  box-shadow: inset 0 0 15px #e5383b;
   z-index: -1;
 }
 .glow-btn {
-  box-shadow: 0 0 18px #e5383b;
+  box-shadow: 0 0 15px #e5383b;
   transition: box-shadow 0.3s;
   text-align: right;
 }
