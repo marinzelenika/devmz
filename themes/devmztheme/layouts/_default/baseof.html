@@ -2,7 +2,9 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+        {{ if .IsHome }}
         {{- partial "header.html" . -}}
+        {{ end }}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>

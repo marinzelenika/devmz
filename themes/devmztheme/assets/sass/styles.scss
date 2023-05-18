@@ -53,6 +53,7 @@ body {
 }
 .card {
   background-color: transparent;
+  height: 200px;
   img{
     object-fit: cover;
   }
@@ -61,4 +62,7 @@ body {
 }
 .card:hover{
   box-shadow: 13px 9px 12px 2px #e5383b, inset 0 0 10px #e5383b;
+}
+.article-container{
+  padding: 20px 1em;
 }
